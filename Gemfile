@@ -6,8 +6,10 @@ git_source(:github) do |repo_name|
 end
 
 
-gem 'bootstrap'
+gem 'bootstrap-sass'
 gem 'font-awesome-rails'
+gem 'sqlite3'
+gem 'carrierwave'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'

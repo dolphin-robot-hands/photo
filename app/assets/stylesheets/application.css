@@ -12,4 +12,8 @@
  *
  *= require_tree .
  *= require_self
+ *= require_stylish-portfolio
  */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ @import "bootstrap/theme";
