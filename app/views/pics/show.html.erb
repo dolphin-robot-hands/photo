@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @pic.title %>
+</p>
+
+<p>
+  <strong>File:</strong>
+  <%= image_tag(@pic.file_url, :width => 600) if @pic.file.present? %>
+</p>
+
+<%= link_to 'Edit', edit_pic_path(@pic) %> |
+<%= link_to 'Back', pics_path %>

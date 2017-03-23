@@ -1,2 +1,8 @@
 <h1>Gallery#adventure</h1>
 <p>Find me in app/views/gallery/adventure.html.erb</p>
+
+<div>
+<% @pics.each do |photo| %>
+  <a class="example-image-link" href = "<%= photo.file_url %>" data-lightbox="example-set" data-title="sample"><img class="example-image" src="<%= photo.file_url(:thumb) %>"  alt="" /></a>
+<% end %>
+</div>
