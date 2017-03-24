@@ -5,9 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
+#gem 'sprockets', '~> 2.12.3'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
+
 
 gem 'carrierwave'
 gem 'pg', group: :production
