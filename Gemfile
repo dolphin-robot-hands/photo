@@ -9,8 +9,9 @@ end
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 
-
 gem 'carrierwave'
+gem "mini_magick"
+
 gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

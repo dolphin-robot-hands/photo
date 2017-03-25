@@ -9,5 +9,6 @@ class GalleryController < ApplicationController
   end
 
   def adventure
+    @pics = Pic.all
   end
 end
