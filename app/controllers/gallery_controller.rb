@@ -6,6 +6,7 @@ class GalleryController < ApplicationController
   end
 
   def night
+    @pics = Pic.all
   end
 
   def adventure

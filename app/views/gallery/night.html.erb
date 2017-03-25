@@ -1,2 +1,15 @@
-<h1>Gallery#night</h1>
-<p>Find me in app/views/gallery/night.html.erb</p>
+
+<div class="col-lg-10 col-lg-offset-1 text-center">
+  <h1>NIGHT</h1>
+  <% @pics.each do |photo| %>
+
+
+        <div class="col-sm-4 align-self-center">
+            <div class="portfolio-item align-self-center">
+                <a class="img-portfolio img-responsive" href = "<%= photo.file_url %>"
+                    data-lightbox="example-set" data-title=<%= %>>
+                    <img class="img-portfolio img-responsive align-self-center" src="<%= photo.file_url(:thumb) %>"  alt="" /></a>
+            </div>
+        </div>
+  <% end %>
+</div>
