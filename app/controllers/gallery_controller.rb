@@ -6,7 +6,7 @@ class GalleryController < ApplicationController
   end
 
   def night
-    @pics = Pic.all
+    @pics = Pic.where(gallery: 'night')
   end
 
   def adventure

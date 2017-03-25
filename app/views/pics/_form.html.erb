@@ -16,6 +16,16 @@
     <%= f.text_field :title, class:'form-control' %>
   </div>
 
+  <%= f.radio_button :gallery, 'people' %>
+  <%= f.label :gallery, 'people', :value => 'people' %>
+  <%= f.radio_button :gallery, 'travel' %>
+  <%= f.label :gallery, 'travel', :value => 'travel' %>
+  <%= f.radio_button :gallery, 'travel' %>
+  <%= f.label :gallery, 'night', :value => 'night' %>
+  <%= f.radio_button :gallery, 'adventure' %>
+  <%= f.label :gallery, 'adventure', :value => 'adventure' %>  
+
+
   <div class="field">
     <%= f.label :file %>
     <%= f.file_field :file, class:'form-control' %>
