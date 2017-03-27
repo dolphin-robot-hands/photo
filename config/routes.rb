@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :pics
+  
   get 'gallery/people'
 
   get 'gallery/travel'
